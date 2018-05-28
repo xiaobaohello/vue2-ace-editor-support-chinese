@@ -1,7 +1,7 @@
 {
-  "name": "vue2-ace-editor-support-chinese",
+  "name": "vue-ace-editor-support-chinese",
   "version": "0.0.4",
-  "author": "wangjianhui2464",
+  "author": "xiaobaohello",
   "description": "A Vue2.0's component based on last ace/brace",
   "keywords": [
     "node.js",
@@ -16,13 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangjianhui2464/vue2-ace-editor-support-chinese"
+    "url": "git+https://github.com/xiaobaohello/vue2-ace-editor-support-chinese"
   },
-  "homepage": "https://github.com/wangjianhui2464/vue2-ace-editor-support-chinese#readme",
+  "homepage": "https://github.com/xiaobaohello/vue2-ace-editor-support-chinese#readme",
   "license": "GPL",
   "bugs": {
-    "url": "https://github.com/wangjianhui2464/vue2-ace-editor-support-chinese/issues",
-    "email": "wangjianhui2464@gmail.com"
+    "url": "https://github.com/xiaobaohello/vue2-ace-editor-support-chinese/issues",
+    "email": "363230111@qq.com"
   },
   "dependencies": {
     "brace": "^0.10.0",
