@@ -1,6 +1,6 @@
 {
   "name": "vue-ace-editor-support-chinese",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "author": "xiaobaohello",
   "description": "A Vue2.0's component based on last ace/brace",
   "keywords": [
@@ -27,5 +27,8 @@
   "dependencies": {
     "brace": "^0.10.0",
     "emmet": "git+https://github.com/cloud9ide/emmet-core.git#41973fcc70392864c7a469cf5dcd875b88b93d4a"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
   }
 }

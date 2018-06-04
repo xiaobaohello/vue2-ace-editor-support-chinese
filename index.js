@@ -43,15 +43,15 @@ module.exports = {
     },
   },
   mounted: function () {
-    let _this = this
-    let vm = this
-    let lang = this.lang || 'text'
-    let theme = this.theme || 'chrome'
-    let autoComplete = this.autoComplete || false
+    var _this = this
+    var vm = this
+    var lang = this.lang || 'text'
+    var theme = this.theme || 'chrome'
+    var autoComplete = this.autoComplete || false
     
     require('brace/ext/emmet')
   
-    let editor = vm.editor = ace.edit(this.$el)
+    var editor = vm.editor = ace.edit(this.$el)
     
     _this.$emit('init', editor)
     
@@ -63,7 +63,7 @@ module.exports = {
     this.$set(this, 'contentBackup', this.value)
     // set autoComplete
     if (autoComplete) {
-      let staticWordCompleter = {
+      var staticWordCompleter = {
         getCompletions: function (editor, session, pos, prefix, callback) {
           _this.$emit('setCompletions', editor, session, pos, prefix, callback)
         },
@@ -78,7 +78,7 @@ module.exports = {
     }
     
     editor.on('change', function () {
-      let content = editor.getValue()
+      var content = editor.getValue()
       vm.$emit('input', content)
       vm.contentBackup = content
     })
